@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+<bean id="pers" class = "my_spring.person">
+<constructor-arg ref="steelaxe"/>
+    <property name = "axe" ref = "stoneaxe"/>
+
+</bean>
+<bean id = "stoneaxe" class="my_spring.stoneAxe">
+</bean>
+
+<bean id = "steelaxe" class="my_spring.steelstone">
+</bean>
+</beans>
